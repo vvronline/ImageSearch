@@ -16,7 +16,7 @@ function Header() {
         setProducts(res.data.hits);
       })
       .catch((error) => console.log(`Error : ${error}`));
-  }, );
+  },[text] );
   //  const [data, setData] = useState("")
  
    
